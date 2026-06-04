@@ -60,7 +60,7 @@ const sendBookingEmail = async (userEmail, userName, eventTitle) => {
 };
 
 // OTP Email Function
-exports.sendOtpEmail = async (email, otp, type) => {
+exports.sendOTPEmail = async (email, otp, type) => {
     try {
 
         const title =
